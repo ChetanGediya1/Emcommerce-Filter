@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ti1"
+        android:title="Model"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/apple"
+                android:title="APPLE" />
+            <item
+                android:id="@+id/oneplus"
+                android:title="ONEPLUS" />
+            <item
+                android:id="@+id/samsung"
+                android:title="SAMSUNG" />
+            <item
+                android:id="@+id/REDMI"
+                android:title="REDMI" />
+            <item
+                android:id="@+id/vivo"
+                android:title="VIVO" />
+
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/t12"
+        android:title="Rating"
+
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/a"
+                android:title="1" />
+            <item
+                android:id="@+id/b"
+                android:title="2" />
+            <item
+                android:id="@+id/c"
+                android:title="3" />
+            <item
+                android:id="@+id/d"
+                android:title="4" />
+            <item
+                android:id="@+id/e"
+                android:title="5" />
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/t13"
+        android:title="Price"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/pr1"
+                android:title="5000 to 20000" />
+            <item
+                android:id="@+id/pr2"
+                android:title="21000 to 50000" />
+            <item
+                android:id="@+id/pr3"
+                android:title="51000 to 100000" />
+            <item
+                android:id="@+id/pr4"
+                android:title="101000 to 150000" />
+            <item
+                android:id="@+id/pr5"
+                android:title="151000 to 200000" />
+
+        </menu>
+
+
+
+    </item>
+
+
+
+
+</menu>
